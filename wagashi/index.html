@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wagashi</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="./css/wagashi.css">
+    <!-- favicon -->
+    <link rel="icon" href="img/favicon.ico">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__items vrl">
+                <h1 class="header__logo"><img src="img/logo.svg" alt="創作" width="40px" height="90px"></h1>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__info ft18"><a href="#news">お知らせ</a></li>
+                        <li class="nav__info ft18"><a href="#products">商品のご案内</a></li>
+                        <li class="nav__info ft18"><a href="#shop">店舗のご案内</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="header__btn">
+                    <p class="header__ec">オンラインストアを見る</p>
+                </a>
+            </div>
+        </header>
+
+        <main>
+            <section class="news wrapper mt180" id="news">
+                <div class="news__items vrl">
+                    <h2 class="news__ttl ft32">お知らせ</h2>
+                    <dl class="news__list">
+                        <div class="news__info">
+                            <dt class="ft14">2021.03.01</dt>
+                            <dd class="news__article"><a href="#">新商品販売開始のお知らせ</a></dd>
+                        </div>
+                        <div class="news__info">
+                            <dt class="ft14">2021.03.01</dt>
+                            <dd class="news__article"><a href="#">新商品の販売予定日に関するご案内</a></dd>
+                        </div>
+                        <div class="news__info">
+                            <dt class="ft14">2021.02.01</dt>
+                            <dd class="news__article"><a href="#">催事のご案内</a></dd>
+                        </div>
+                        <div class="news__info">
+                            <dt class="ft14">2021.02.01</dt>
+                            <dd class="news__article"><a href="#">キャンペーン開始のお知らせ</a></dd>
+                        </div>
+                        <div class="news__info">
+                            <dt class="ft14">2021.01.01</dt>
+                            <dd class="news__article"><a href="#">各種イベントのお知らせ</a></dd>
+                        </div>
+                    </dl>
+                </div>
+            </section>
+
+            <div id="products">
+                <section class="value wrapper mt180 vrl">
+                    <div class="value__items">
+                        <h2 class="value__ttl ft32">新しい価値の創造</h2>
+                        <div class="value__img">
+                            <img src="img/products1.jpg" alt="積み重なった抹茶パンケーキ" loading="lazy">
+                        </div>
+                        <p class="value__des">テキストテキスト<br>テキストテキスト</p>
+                    </div>
+                </section>
+
+                <section class="tech wrapper mt180 vlr">
+                    <div class="tech__items">
+                        <h2 class="tech__ttl ft32">科学と技術の調和</h2>
+                        <div class="tech__img">
+                            <img src="img/products2.jpg" alt="挽きたての抹茶" loading="lazy">
+                        </div>
+                        <p class="tech__des">テキストテキスト<br>テキストテキスト</p>
+                    </div>
+                </section>
+            </div>
+
+            <section class="shop mt180" id="shop">
+                <iframe class="shop__map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12966.288814805024!2d139.72489607312332!3d35.66291021679152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b9d3c1c9187%3A0x48f9c248e9169cfe!2z44CSMTA2LTAwMzIg5p2x5Lqs6YO95riv5Yy65YWt5pys5pyo!5e0!3m2!1sja!2sjp!4v1647872199189!5m2!1sja!2sjp"
+                    width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__items">
+                <div class="vrl">
+                    <h1 class="footer__logo"><img src="img/logo.svg" alt="創作" width="40px" height="90px"></h1>
+                    <address class="footer__address">
+                        <p>〒<span class="num">106</span>-<span class="num">0032</span> 東京都港区六本木５丁目×××××</p>
+                        <a href="tel:03-XXX-XXXX" class="footer__tel">
+                            電話: <span class="num">03</span>-<span class="num">XXX</span>-<span class="num">XXXX</span>
+                        </a>
+                    </address>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__info"><a href="#news">お知らせ</a></li>
+                            <li class="nav__info"><a href="#products">商品のご案内</a></li>
+                            <li class="nav__info"><a href="#shop">店舗のご案内</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="footer__left">
+                        <li class="footer__ec"><a href="#">オンラインストアを見る</a></li>
+                        <li class="footer__contact"><a href="mailto:xxx@xxx.com">お問い合わせ</a></li>
+                    </ul>
+                </div>
+                <div class="footer__copy">
+                    <small>&copy;2022 WAGASHI</small>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

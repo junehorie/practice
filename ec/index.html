@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Totally</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/ec.css">
+    <!-- favicon -->
+    <link rel="icon" href="./img/favicon.ico">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header wrapper">
+            <div class="header__items">
+                <h1 class="header__logo">
+                    <a href="index.html">
+                        <img src="./img/logo.svg" alt="Totally" class="header__logoImg">
+                    </a>
+                </h1>
+                <nav class="header__nav">
+                    <ul class="header__nav1">
+                        <li class="header__navList"><a href="#">ALL</a></li>
+                        <li class="header__navList"><a href="#">NEW</a></li>
+                        <li class="header__navList"><a href="#">SALE</a></li>
+                        <li class="header__navList"><a href="#">CATEGORY</a></li>
+                        <li class="header__navList"><a href="#">LOOKBOOK</a></li>
+                        <li class="header__navList"><a href="#">BLOG</a></li>
+                    </ul>
+                    <ul class="header__nav2">
+                        <li class="header__navList"><a href="#">LOGIN</a></li>
+                        <li class="header__navList"><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="content wrapper">
+                <section class="product productFlex">
+                    <div class="product__item">
+                        <img src="./img/item.jpg" alt="A white short sleeve shirt." class="product__img">
+                    </div>
+                    <table class="product__size" border="1" cellspacing="0">
+                        <thead>
+                            <tr bgcolor="#ECEBEB">
+                                <th>Size</th>
+                                <th>Bust</th>
+                                <th>Waist</th>
+                                <th>Hips</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td bgcolor="#ECEBEB">S</td>
+                                <td>34 ~ 35</td>
+                                <td>25 ~ 26</td>
+                                <td>35 ~ 37</td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#ECEBEB">M</td>
+                                <td>35 ~ 36</td>
+                                <td>27 ~ 28</td>
+                                <td>38 ~ 39</td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#ECEBEB">L</td>
+                                <td>37 ~ 38</td>
+                                <td>28 ~ 29</td>
+                                <td>40 ~ 42</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section class="info infoFlex">
+                    <h2 class="info__title">Short Sleeve Shirt</h2>
+                    <p class="info__des">
+                        Product Descriptions. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p class="info__price">$99.00 +tax</p>
+                    <table class="info__size" cellspacing="0">
+                        <thead>
+                            <tr class="info__header">
+                                <th class="info__headerTitle">Color</th>
+                                <th class="info__headerTitle">Size</th>
+                                <th class="info__headerTitle"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="info__body">
+                                <td>White</td>
+                                <td>S</td>
+                                <td>
+                                    <select name="info__num">
+                                        <option hidden>Select QTY</option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr class="info__body">
+                                <td>White</td>
+                                <td>M</td>
+                                <td>
+                                    <select name="info__num">
+                                        <option hidden>Select QTY</option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr class="info__body">
+                                <td>White</td>
+                                <td>L</td>
+                                <td>
+                                    <select name="info__num">
+                                        <option hidden>Select QTY</option>
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button class="info__btn">ADD TO CART</button>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer__items wrapper">
+                <small>&copy;2021 Totally</small>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

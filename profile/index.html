@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/profile.css">
+    <!-- favicon -->
+    <link rel="icon" href="./img/favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header wrapper">
+            <div class="header__items">
+                <a href="index.html" class="header__logo">
+                    <img src="img/logo.svg" width="120px" height="40px" alt="Profile">
+                </a>
+                <ul class="header__flex">
+                    <li class="header__about"><a href="#about">About Me</a></li>
+                    <li class="header__bicycle"><a href="#bicycle">My Bicycles</a></li>
+                </ul>
+            </div>
+        </header>
+    
+        <main class="main">
+            <section class="mainvisual">
+                <img class="mainvisual__img" src="img/mainvisual.jpg">
+            </section>
+
+            <section class="about wrapper" id="about">
+                <h2 class="about__title">About Me</h2>
+                <div class="about__flex">
+                    <div class="about__photo">
+                        <img class="about__image" src="img/about.jpg" alt="A man sitting on a white couch.">
+                    </div>
+                    <div class="about__info">
+                        <p class="about__name">JOHN SMITH</p>
+                        <p class="about__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, 
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bicycle wrapper" id="bicycle">
+                <h2 class="bicycle__title">My Bicycles</h2>
+                <div class="bicycle__flex">
+                    <dl class="bicycle__item">
+                        <img src="img/bicycle1.jpg" alt="A vintage green bicycle with a brown basket." class="bicycle__image">
+                        <dt class="bicycle__name">Bicycle Name</dt>
+                        <dd class="bicycle__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</dd>
+                    </dl>
+                    <dl class="bicycle__item">
+                        <img src="img/bicycle2.jpg" alt="A vintage white bicycle parked in front of a shop." class="bicycle__image">
+                        <dt class="bicycle__name">Bicycle Name</dt>
+                        <dd class="bicycle__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</dd>
+                    </dl>
+                    <dl class="bicycle__item">
+                        <img src="img/bicycle3.jpg" alt="A black mountain bicycle." class="bicycle__image">
+                        <dt class="bicycle__name">Bicycle Name</dt>
+                        <dd class="bicycle__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</dd>
+                    </dl>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer wrapper">
+            <div class="footer__items">
+                <small class="footer__copyright">&copy;2020 Profile</small>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

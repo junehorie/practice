@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+body {
+    color: #383E45;
+    ;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* header */
+.header__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    background-color: #fff;
+}
+
+.header__logo {
+    width: 30%;
+    line-height: 0;
+}
+
+.header__logo:hover {
+    opacity: .9;
+}
+
+.header__flex {
+    display: flex;
+    justify-content: flex-end;
+    gap: 21px;
+    width: 60%;
+}
+
+.header__about:hover,
+.header__bicycle:hover {
+    opacity: .7;
+}
+
+/* mainvisual */
+.mainvisual__img {
+    width: 100%;
+    height: calc((100vh - 60px)/ 1.3);
+    object-fit: cover;
+}
+
+/* about */
+.about {
+    text-align: center;
+}
+
+.about__title {
+    display: inline-block;
+    margin-top: 80px;
+    border-bottom: 1px solid #383E45;
+}
+
+.about__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.about__photo {
+    width: 25%;
+}
+
+.about__image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.about__info {
+    width: 65%;
+    text-align: left;
+}
+
+.about__name {
+    font-weight: bold;
+}
+
+.about__description {
+    margin-top: 10px;
+}
+
+/* bicycle */
+.bicycle {
+    text-align: center;
+    padding-bottom: 110px;
+}
+
+.bicycle__title {
+    display: inline-block;
+    margin-top: 80px;
+    border-bottom: 1px solid #383E45;
+}
+
+.bicycle__flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.bicycle__item {
+    width: calc(100% / 3);
+}
+
+.bicycle__image {
+    width: 100%;
+    height: 100%;
+}
+
+.bicycle__name {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.bicycle__description {
+    margin-top: 5px;
+    text-align: left;
+}
+
+/* footer */
+.footer__items {
+    text-align: center;
+}
+
+@media (max-width: 634px) {
+    .header__flex {
+        gap: 10px;
+    }
+
+    .mainvisual__img {
+        height: calc((100vh - 60px)/1.5);
+    }
+
+    .about__title {
+        margin-top: 50px;
+    }
+
+    .about__flex {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .about__photo {
+        width: 45%;
+    }
+
+    .about__info {
+        width: 100%;
+    }
+
+    .about__name {
+        text-align: center;
+    }
+
+    .about__description {
+        text-align: justify;
+    }
+
+    .bicycle {
+        padding-bottom: 55px;
+    }
+
+    .bicycle__title {
+        margin-top: 60px;
+    }
+
+    .bicycle__flex {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 20px;
+    }
+
+    .bicycle__item {
+        width: 100%;
+    }
+
+    .bicycle__image {
+        width: 100%;
+    }
+
+    .bicycle__name {
+        margin-top: 15px;
+    }
+}

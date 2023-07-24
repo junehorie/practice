@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/corporate.css">
+    <!-- favicon -->
+    <link rel="icon" href="./img/favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__items">
+                <div class="header__box wrapper">
+                    <h1 class="header__logo">
+                        <a href="#"><img src="./img/logo.svg" alt="wed" width="100px" height="25px"></a>
+                    </h1>
+                    <ul class="header__nav">
+                        <li><a href="#news">NEWS</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#business">BUSINESS</a></li>
+                        <li><a href="#company">COMPANY</a></li>
+                    </ul>
+                </div>
+                <div class="header__contact">
+                    <a href="#" class="header__btn">お問い合わせ</a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="mainvisual">
+                <img src="./img/mainvisual.jpg" alt="赤い壁が特徴的なスタイリッシュなオフィス" class="mainvisual__img">
+            </section>
+            <section class="news wrapper mgt120" id="news">
+                <div class="news__hook">
+                    <h2 class="news__title">NEWS</h2>
+                    <p class="news__subtitle">ニュース</p>
+                </div>
+                <dl class="news__topics fs875">
+                    <div class="news__topics1 news__list">
+                        <dt class="news__date">2022.03.11</dt>
+                        <dd class="news__article"><a href="#">プロダクト公開のお知らせ</a></dd>
+                    </div>
+                    <div class="news__topics2 news__list">
+                        <dt class="news__date">2022.02.01</dt>
+                        <dd class="news__article"><a href="#">プロダクト公開記念</a></dd>
+                    </div>
+                    <div class="news__topics3 news__list">
+                        <dt class="news__date">2022.01.25</dt>
+                        <dd class="news__article"><a href="#">決算報告会のスケジュール</a></dd>
+                    </div>
+                </dl>
+            </section>
+            <section class="about mgt120" id="about">
+                <div class="about__items">
+                    <div class="about__img">
+                        <img src="./img/about.jpg" alt="オフィス内の赤い壁">
+                    </div>
+                    <div class="about__txt">
+                        <div class="about__hook">
+                            <h2 class="about__title">ABOUT</h2>
+                            <p class="about__subtitle">私たちについて</p>
+                        </div>
+                        <p class="about__des fs875">
+                            テキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキスト
+                            テキストテキストテキストテキストテキストテキスト
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="business wrapper mgt120" id="business">
+                <div class="business__hook">
+                    <h2 class="business__title">BUSINESS</h2>
+                    <p class="business__subtitle">事業内容</p>
+                </div>
+                <div class="business__info fs875">
+                    <div class="business__left">
+                        <p class="business__about">Web制作事業</p>
+                        <img src="./img/business1.jpg" alt="digital marketingと表示されたパソコン画面">
+                        <p class="business__about">インターネットメディア事業</p>
+                        <img src="./img/business2.jpg" alt="コードが書かれたモニター画面">
+                    </div>
+                    <div class="business__right">
+                        <p class="business__about">プロモーション企画・制作</p>
+                        <img src="./img/business3.jpg" alt="夜景をうつすキャノンのカメラ">
+                        <p class="business__about">ソーシャル企画・運営</p>
+                        <img src="./img/business4.jpg" alt="SNSアプリのアイコンが並んでいるスマホ画面">
+                    </div>
+                </div>
+            </section>
+            <section class="company wrapper mgt120" id="company">
+                <div class="company__items">
+                    <div class="company__txt">
+                        <div class="company__hook">
+                            <h2 class="company__title">COMPANY</h2>
+                            <p class="company__subtitle">会社情報</p>
+                        </div>
+                        <dl class="company__info fs875">
+                            <dt>会社名</dt>
+                            <dd>XXX株式会社</dd>
+                            <dt>所在地</dt>
+                            <dd>東京都渋谷区桜丘町</dd>
+                            <dt>代表</dt>
+                            <dd>田中XX</dd>
+                            <dt>設立</dt>
+                            <dd>2022年3月19日</dd>
+                            <dt>資本金</dt>
+                            <dd>3,000,000円</dd>
+                            <dt>事業内容</dt>
+                            <dd>
+                                <p class="company__project">Web制作事業</p>
+                                <p class="company__project">インターネットメディア事業</p>
+                                <p class="company__project">プロモーション企画・制作</p>
+                                <p class="company__project">ソーシャル企画・運営</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="company__img">
+                        <img src="./img/company.jpg" alt="赤い壁を基調としたオフィス" loading="lazy">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__items">
+                <div class="wrapper">
+                    <div class="footer__box">
+                        <h1 class="footer__logo">
+                            <a href="#"><img src="./img/logo.svg" alt="wed" width="100px" height="25px"></a>
+                        </h1>
+                        <div class="footer__txt fs875">
+                            <p>Web Entertainment Design Inc.</p>
+                            <p>West Building 3F <br>
+                                9-99 Sakuragaokacho Shibuya-ku <br>
+                                Tokyo, Japan 150-0031 <br>
+                            </p>
+                        </div>
+                    </div>
+                    <small class="footer__copy">&copy;2022 Corporate</small>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
